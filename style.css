@@ -31,6 +31,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background: #fcfcfc;
+    border: 0.1px solid #7d7b7b;
+    border-radius: 2.5px;
 }
 
 .logo {
@@ -100,6 +102,11 @@ body {
     margin-right: 20px;
 }
 
+.btn:hover {
+    color: #fff;
+    background-color: #9f5264;
+}
+
 .header-img-container {
     display: flex;
     justify-content: center;
@@ -166,7 +173,7 @@ body {
 .about-img {
     width: 90%;
     height: 500px;
-    display: block;
+    display: flex;
     object-fit: cover;
     margin: 10px auto;
     border-radius: 10px;
@@ -200,4 +207,108 @@ body {
 
 .social-media:hover {
     opacity: 1;
+}
+
+.info {
+    width: 50%;
+    height: 50%;
+    text-align:justify;
+}
+
+.info p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 30px 0;
+}
+
+.sub-heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 40px 0;
+    text-transform: capitalize
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.skills-name {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 10px;
+}
+
+.skills-name:hover {
+    color: #fff;
+    background-color:lightseagreen;
+}
+
+.timeline-container {
+    width: 100%;
+    position: relative;
+}
+
+.card-container {
+    width: 100%;
+    padding: 0 10%;
+    margin-top: -100px;
+}
+
+.card {
+    display: block;
+    width: 45%;
+    min-height: 200px;
+    min-width: 300px;
+    background: #f1f1f1;
+    color: #fff;
+    border: 1px solid #fcfcfc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-container:nth-child(1) .card{
+    margin-top: 150px;
+    background-color: #fe6666;
+}
+.card-container:nth-child(2) .card{
+    margin-top: 150px;
+    background-color: #fee566;
+}
+.card-container:nth-child(3) .card{
+    margin-top: 150px;
+    background-color: #b766fe;
+}
+.card-container:nth-child(4) .card{
+    margin-top: 150px;
+    background-color: #99fe66;
+}
+.card-container:nth-child(5) .card{
+    margin-top: 150px;
+    background-color: #41415e;
+}
+
+.card-container:nth-child(even) .card {
+    margin-left: auto;
+}
+
+.card-title {
+    width: 100%;
+    height: 60px;
+    font-weight: 300;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 18px;
+}
+
+.card-body {
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    opacity: 0.8;
+    font-weight: 300;
 }
