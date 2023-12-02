@@ -500,14 +500,14 @@ input, textarea {
     font-size: .9rem;
     padding: 1vw;
     background-color: #fff;
-    border: 1px solid #cecece;
+    border: 1px solid #313030;
     border-radius: 5px;
     margin: 10px 0;
     outline: none;
 }
 
 ::placeholder {
-    color: #b4b4b4;
+    color: #858383;
     text-transform: capitalize;
 }
 
