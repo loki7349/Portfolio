@@ -11,14 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar">
+<body >
+    <nav class="navbar" >
         <h1 class="logo">Lokesh</h1>
         <ul class="nav-links-container">
             <li class="nav-link"><a href="#home-section" class="links active">Home</a></li>
             <li class="nav-link"><a href="#about-section" class="links">About</a></li>
-            <li class="nav-link"><a href="#" class="links">Projects</a></li>
-            <li class="nav-link"><a href="#" class="links">Contact</a></li>
+            <li class="nav-link"><a href="#project-section " class="links">Projects</a></li>
+            <li class="nav-link"><a href="#contact-section" class="links">Contact</a></li>
         </ul>
     </nav>
 
@@ -105,7 +105,65 @@
                     <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem itaque consequuntur sed quis debitis, laudantium facere, temporibus dolore labore fugit, sint nesciunt id laboriosam doloribus aut officia minus cumque magni.</p>
                 </div>
             </div>
+            <div class="card-container">
+                <div class="card">
+                    <h1 class="card-title">2018 - 2022</h1>
+                    <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem itaque consequuntur sed quis debitis, laudantium facere, temporibus dolore labore fugit, sint nesciunt id laboriosam doloribus aut officia minus cumque magni.</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!--Project section-->
+    <section id="project-section">
+        <h1 class="heading">Projects</h1>
+
+        <div class="filter">
+            <button class="btn filter-btn">All</button>
+            <button class="btn filter-btn">CSS</button>
+            <button class="btn filter-btn">Javascript</button>
+            <button class="btn filter-btn">Fullstack</button>
+        </div>
+
+        <div class="project-container">
+            <!-- <div class="project-card active ">
+                <div class="project-wrapper">
+                    <div class="project-thumbnail">
+                        <img src="assets/close.png" class="close-btn" alt="">
+                        <img src="assets/project-1.png" class="project-img" alt="">
+                        <span class="tags">#javascript, #css, #fullstack</span>
+                    </div>
+
+                    <div class="project-body">
+                        <h1 class="project-name">Project 1</h1>
+                            <p class="project-details">Lorem ipsum dolor sit amet consectetur, 
+                                adipisicing elit. Cum modi incidunt unde, explicabo error, 
+                                excepturi, iste laudantium..</p>
+                            <a href="#" class="btn">Github</a>
+                            <a href="#" class="btn">See Live</a>
+                    </div>
+                </div>
+            </div>-->
+            
+        </div>
+    </section>
+
+    <!--Contact section-->
+
+    <section id="contact-section">
+        <h1 class="heading">Contact</h1>
+
+        <div class="form">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Second Name">
+            <input type="email" placeholder="Email Address">
+            <input type="tel" placeholder="Phone No.">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit" class="contact-btn">Send</button>
+        </div>
+    </section>
+
+    <script src="./project.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
